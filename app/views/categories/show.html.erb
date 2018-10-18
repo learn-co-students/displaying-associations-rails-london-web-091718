@@ -1,6 +1,6 @@
 
 <h1><%= @category.name %></h1>
-
+<!-- show page on categories  -->
 <h3><%= pluralize(@category.posts.count, 'Post') %></h3>
 <ul>
   <% @category.posts.each do |p| %>
